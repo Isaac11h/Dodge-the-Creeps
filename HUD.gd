@@ -20,6 +20,7 @@ func show_game_over():
 	$StartButton.show()
 
 func update_score(score):
+	print(score)
 	$ScoreLabel.text = str(score)
 
 func _on_StartButton_pressed():
